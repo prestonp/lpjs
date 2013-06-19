@@ -86,4 +86,4 @@ Why? For small projects with a large emphasis on documentation... say
 a coding tutorial or snippet, this makes it easy to browse beautiful
 markdown docs while being easily executable.
 
-Inspired by coffee scripts literate mode.
+Inspired by coffeescript's [literate mode](http://coffeescript.org/#literate).
