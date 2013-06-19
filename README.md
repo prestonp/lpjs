@@ -65,10 +65,27 @@ Consider a markdown document that solves fizz buzz.
     
     fb(100);
     
-# Now let's convert the document with lpjs
+Now let's convert the document with lpjs
 
     $ lpjs fizzbuzz.md
     $ Created fizzbuzz.js
+    
+### fizzbuzz.js ###
+
+        var fb = function(n) {    
+            for(var i=0; i < n; i++) {
+                if( i%3 == 0 && i%5 == 0) {
+                  console.log('fizz buzz!');
+                } else if ( i%3 == 0) {
+                  console.log('fizz');
+                } else if ( i%5 == 0) {
+                  console.log('buzz');
+                } else {
+                  console.log(i);
+                }
+            }
+        }     
+
     
 Want to convert multiple files?
 
