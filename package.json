@@ -1,0 +1,19 @@
+{
+  "name": "lpjs",
+  "version": "0.0.0",
+  "description": "Convert markdown documents with embedded code blocks into a javascript file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prestonp/lpjs.git"
+  },
+  "keywords": [
+    "literate",
+    "programming"
+  ],
+  "author": "Preston Pham",
+  "license": "MIT"
+}

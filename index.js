@@ -1,0 +1,1 @@
+var lpjs = require('./lib/lpjs');
